@@ -15,6 +15,6 @@ def save_index(index, save_path="models/faiss_index.bin"):
     print(f"Saved FAISS index to {save_path}")
 
 if __name__ == "__main__":
-    embeddings = load_embeddings()
+    embeddings = load_embeddings(path="data/processed/embeddings_100k.npy")
     index = build_faiss_index(embeddings)
-    save_index(index)
+    save_index(index, save_path="models/faiss_index_100k.bin")

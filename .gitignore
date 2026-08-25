@@ -5,3 +5,4 @@ __pycache__
 models/
 data/
 decisions.md
+embed_log.txt

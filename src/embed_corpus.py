@@ -28,6 +28,6 @@ def save_embeddings(embeddings, passages, save_path="data/processed/embeddings.n
     print(f"Saved {embeddings.shape[0]} embeddings of dimension {embeddings.shape[1]} to {save_path}")
 
 if __name__ == "__main__":
-    passages = load_passages()
+    passages = load_passages(path="data/processed/corpus_100k.jsonl")
     embeddings = embed_passages_batched(passages, model)
-    save_embeddings(embeddings, passages)
+    save_embeddings(embeddings, passages, save_path="data/processed/embeddings_100k.npy")

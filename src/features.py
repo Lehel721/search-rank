@@ -1,8 +1,9 @@
 from fastembed import TextEmbedding
 import numpy as np
+import json
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from prepare_labels import qrels_data, queries_dict, passages_dict, passages, build_labeled_data
+from prepare_labels import build_labeled_data, build_full_training_data, qrels_data, queries_dict, passages_dict, passages
 
 model = TextEmbedding("BAAI/bge-small-en-v1.5")
 
@@ -49,10 +50,19 @@ def build_feature_table(labeled_data, model, vectorizer):
     return feature_rows
 
 if __name__ == "__main__":
-    labeled_data = build_labeled_data(qrels_data, queries_dict, passages_dict)
-    vectorizer = fit_tfidf(passages)
+    full_data = []
+    with open("data/processed/full_training_data.jsonl", "r") as f:
+        for line in f:
+            full_data.append(json.loads(line))
     
-    feature_table = build_feature_table(labeled_data, model, vectorizer)
+    vectorizer = fit_tfidf(passages)
+    feature_table = build_feature_table(full_data, model, vectorizer)
     
     print(f"Built {len(feature_table)} feature rows")
     print(feature_table[0])
+    
+    with open("data/processed/feature_table.jsonl", "w") as f:
+        for row in feature_table:
+            row_serializable = {k: float(v) if hasattr(v, 'item') else v for k, v in row.items()}
+            f.write(json.dumps(row_serializable) + "\n")
+    print("Saved feature table to data/processed/feature_table.jsonl")

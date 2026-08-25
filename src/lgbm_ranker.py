@@ -1,12 +1,11 @@
 import lightgbm as lgb
-import numpy as np
+import json
 import pandas as pd
-from features import build_feature_table, model, fit_tfidf
-from prepare_labels import qrels_data, queries_dict, passages_dict, passages, build_labeled_data
 
-labeled_data = build_labeled_data(qrels_data, queries_dict, passages_dict)
-vectorizer = fit_tfidf(passages)
-feature_table = build_feature_table(labeled_data, model, vectorizer)
+feature_table = []
+with open("data/processed/feature_table.jsonl", "r") as f:
+    for line in f:
+        feature_table.append(json.loads(line))
 
 df = pd.DataFrame(feature_table)
 
@@ -19,3 +18,6 @@ y = df["relevance"]
 
 ranker = lgb.LGBMRanker(objective="lambdarank")
 ranker.fit(X, y, group=group_sizes)
+
+print("Training complete")
+print(f"Trained on {len(df)} rows across {len(group_sizes)} queries")

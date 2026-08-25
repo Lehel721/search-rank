@@ -4,9 +4,9 @@ import json
 import numpy as np
 
 model = TextEmbedding("BAAI/bge-small-en-v1.5")
-index = faiss.read_index("models/faiss_index.bin")
+index = faiss.read_index("models/faiss_index_100k.bin")
 
-def load_passages(path="data/processed/corpus_subset.jsonl"):
+def load_passages(path="data/processed/corpus_100k.jsonl"):
     passages = []
     with open(path, "r") as f:
         for line in f:
@@ -28,8 +28,8 @@ def search(query, top_k=5):
     return results
 
 if __name__ == "__main__":
-    query = "what is minority interest in accounting"
-    results = search(query, top_k=3)
+    query = "what is non controlling interest on balance sheet"
+    results = search(query, top_k=5)
     
     for r in results:
         print(r["title"])
