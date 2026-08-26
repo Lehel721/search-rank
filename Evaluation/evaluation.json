@@ -1,0 +1,4157 @@
+{
+  "overall_mrr": 0.9005547515677761,
+  "easy_query_mrr": 0.9745929734361611,
+  "easy_query_count": 389,
+  "hard_query_mrr": 0.8051876379690949,
+  "hard_query_count": 302,
+  "num_train_queries": 2761,
+  "num_test_queries": 691,
+  "per_query_results": [
+    {
+      "query_id": "test1",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test100",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1000",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1002",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1003",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1008",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test101",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1010",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1012",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1015",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1016",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1018",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test102",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1020",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1022",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1023",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1028",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1029",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1043",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1061",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1068",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1069",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1072",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1076",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1078",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test108",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1081",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1083",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1084",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1085",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1086",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1087",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1092",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1093",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1096",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1105",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1112",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1115",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1124",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1126",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test113",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1133",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test1135",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1138",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1139",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1140",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1141",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test1143",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1154",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1162",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1167",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1168",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1170",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 6,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "query_id": "test1175",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1185",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1200",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1202",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1211",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1215",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test122",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1222",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1226",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1228",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1230",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1232",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1239",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1244",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1250",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1259",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1262",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1266",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1271",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1276",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test128",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1284",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1285",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1286",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1288",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1292",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1295",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test1299",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test13",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test130",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test131",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1319",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1327",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1328",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1336",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1344",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1352",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1353",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test1356",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1360",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 5,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "query_id": "test1366",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test1372",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1378",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1384",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1389",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1393",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test14",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 5,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "query_id": "test1404",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1408",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1415",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1429",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1432",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1438",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 6,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "query_id": "test1448",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1451",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1455",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1465",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test147",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1470",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1481",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1482",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1486",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1491",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1493",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test1494",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test1512",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1513",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test1516",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1529",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1531",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1550",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1552",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1554",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1556",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test156",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1563",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1566",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1572",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1576",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1577",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test158",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1599",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test162",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1620",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1621",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test163",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1632",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1634",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test1635",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1636",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1637",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test1642",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1643",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1648",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1649",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1653",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1663",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1664",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1667",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1672",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1683",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1686",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1688",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test1697",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test171",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1717",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1718",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1722",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1728",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1729",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1731",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 5,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "query_id": "test1732",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1733",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1734",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1741",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1747",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1751",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1754",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1760",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1765",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1766",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test177",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1779",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1780",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1786",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1787",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1794",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test180",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test1801",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1809",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test181",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1811",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1812",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1815",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1826",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1837",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1839",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1843",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1849",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1857",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1858",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1863",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1865",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1869",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test187",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1872",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1877",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1879",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1881",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1885",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test189",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1893",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1894",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1902",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1903",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1904",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1912",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1917",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test192",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1927",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1936",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1937",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1938",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1944",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1946",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1952",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1971",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test1984",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1988",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1989",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1990",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test1993",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2001",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2021",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2024",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2044",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test205",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2050",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2059",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2067",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2069",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test207",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2070",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2072",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2077",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2079",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test208",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2080",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2086",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2087",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2093",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2094",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2105",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2111",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2119",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2121",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2129",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2135",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2141",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test2161",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2166",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2167",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2172",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2175",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2181",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2187",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2196",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2199",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test22",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2202",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2205",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2207",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2208",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2209",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test221",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2214",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2220",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2225",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2232",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2233",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2234",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2244",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2251",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2254",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2259",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2261",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2263",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2266",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2268",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2270",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2271",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2276",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2281",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2283",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2289",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test229",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2293",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2297",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2298",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2299",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2306",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2315",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test232",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2323",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2331",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2333",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2338",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test234",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2357",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2360",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2361",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2364",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test237",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2371",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2372",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2375",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2378",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2385",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test239",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2390",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2392",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2394",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test240",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2409",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test241",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2410",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2413",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2418",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2435",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2437",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2438",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2440",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2442",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2443",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2453",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2465",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2472",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2477",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test248",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2483",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2484",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test249",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2494",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2495",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2503",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2505",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 6,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "query_id": "test2509",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2521",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2533",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2536",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2542",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2544",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2552",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2561",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2567",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2570",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2574",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test2579",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2584",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2592",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2597",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2598",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test26",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test260",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2600",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2603",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2609",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2611",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2617",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2619",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test262",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2621",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2625",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2627",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2633",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2643",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2646",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2654",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2661",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2671",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2676",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test2678",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2681",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2684",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2687",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2692",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2698",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test2699",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2702",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test2703",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2708",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test271",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2711",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2717",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test2719",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2720",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2723",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2731",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 5,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "query_id": "test2734",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2735",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2740",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2743",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2745",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2746",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2751",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2755",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2758",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test276",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2765",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2767",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2771",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2774",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test278",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2783",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2786",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2787",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2792",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2793",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2799",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test280",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2804",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test281",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2813",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2815",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2818",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2825",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test283",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2830",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test284",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2852",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2853",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2855",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2859",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test286",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2872",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2874",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2881",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2885",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2890",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2899",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test29",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test290",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test292",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2920",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2932",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2933",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2939",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test2940",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2942",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2947",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2952",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2956",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2957",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test2959",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2962",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2966",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test297",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test298",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2982",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2986",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2988",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2989",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test2992",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 6,
+      "reciprocal_rank": 0.16666666666666666
+    },
+    {
+      "query_id": "test2997",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test300",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3011",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3013",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3015",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3016",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3033",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3037",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test3051",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3052",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3056",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test3059",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3063",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3066",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3075",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test308",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3084",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3086",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3088",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3090",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3093",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test3095",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3108",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test3110",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test3113",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3115",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3117",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3120",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3123",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3124",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3127",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3132",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3136",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3140",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3146",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3147",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3148",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3157",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test3163",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3166",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test317",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3176",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3178",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test3187",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test3189",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3197",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test32",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3202",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3205",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3213",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3216",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test322",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3221",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3239",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3241",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3244",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3248",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3259",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test326",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3260",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3261",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3275",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test328",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3283",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3297",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3300",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3305",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3308",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3311",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3315",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3328",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3334",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test335",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test3350",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3351",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3379",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3388",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3391",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3396",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3401",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3407",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3408",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3409",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3420",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3423",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3424",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test3426",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3436",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3444",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test3450",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test347",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test350",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test356",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test372",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test378",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test379",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test38",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 5,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "query_id": "test382",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test383",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test386",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test39",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test396",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test397",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test401",
+      "num_candidates": 9,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test403",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test409",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test413",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test418",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test419",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test421",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test424",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test435",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test436",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test438",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test442",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test444",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test447",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test449",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test456",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test458",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test469",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test47",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test472",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test473",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test491",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test495",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test497",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test510",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test511",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test515",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test521",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test522",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test525",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test535",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test536",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test541",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test542",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test546",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test550",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test566",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test571",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test574",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test585",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test6",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test60",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test603",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test604",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test606",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test610",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test626",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test633",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test634",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test636",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test644",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test646",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test647",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test651",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test652",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test653",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test655",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test661",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test665",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test666",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test669",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test674",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test676",
+      "num_candidates": 8,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test681",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test695",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test700",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test712",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test720",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test725",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test731",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test734",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test751",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test761",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test777",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test778",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test779",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test784",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test785",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test787",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test79",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test791",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test796",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test8",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test807",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test814",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test815",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test817",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test823",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test833",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 5,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "query_id": "test836",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test858",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test86",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test860",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test862",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test864",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test867",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test870",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test873",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test875",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test877",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test881",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test891",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test895",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test896",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test898",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test899",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test902",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test911",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test913",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test914",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test920",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test932",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test933",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test937",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test938",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 2,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query_id": "test942",
+      "num_candidates": 9,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test952",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test953",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test96",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test960",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test962",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test963",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 3,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "query_id": "test968",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test969",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test974",
+      "num_candidates": 7,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test977",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test979",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test980",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test986",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query_id": "test995",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 4,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query_id": "test999",
+      "num_candidates": 6,
+      "rank_of_correct_answer": 1,
+      "reciprocal_rank": 1.0
+    }
+  ]
+}

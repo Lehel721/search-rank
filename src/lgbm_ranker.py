@@ -12,7 +12,7 @@ df = pd.DataFrame(feature_table)
 df = df.sort_values("query_id").reset_index(drop=True)
 group_sizes = df.groupby("query_id").size().tolist()
 
-feature_cols = ["embedding_similarity", "tfidf_similarity", "passage_length"]
+feature_cols = ["embedding_similarity", "tfidf_similarity", "passage_length", "retrieval_rank"]
 X = df[feature_cols]
 y = df["relevance"]
 
@@ -21,3 +21,6 @@ ranker.fit(X, y, group=group_sizes)
 
 print("Training complete")
 print(f"Trained on {len(df)} rows across {len(group_sizes)} queries")
+
+ranker.booster_.save_model("models/lgbm_ranker.txt")
+print("Model saved to models/lgbm_ranker.txt")

@@ -6,3 +6,4 @@ models/
 data/
 decisions.md
 embed_log.txt
+.DS_Store

@@ -22,8 +22,10 @@ def search(query, top_k=5):
     distances, indices = index.search(query_vector, top_k)
     
     results = []
-    for idx in indices[0]:
-        results.append(passages[idx])
+    for rank, idx in enumerate(indices[0]):
+        passage = passages[idx]
+        passage["retrieval_rank"] = rank
+        results.append(passage)
     
     return results
 

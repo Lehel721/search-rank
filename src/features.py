@@ -30,18 +30,19 @@ def compute_tfidf_similarity(query_text, passage_text, vectorizer):
 def compute_passage_length(passage_text):
     return len(passage_text.split())
 
-def extract_features(query_text, passage_text, model, vectorizer):
+def extract_features(query_text, passage_text, retrieval_rank):
     return {
         "embedding_similarity": compute_similarity(query_text, passage_text, model),
         "tfidf_similarity": compute_tfidf_similarity(query_text, passage_text, vectorizer),
-        "passage_length": compute_passage_length(passage_text)
+        "passage_length": compute_passage_length(passage_text),
+        "retrieval_rank": retrieval_rank
     }
 
 def build_feature_table(labeled_data, model, vectorizer):
     feature_rows = []
     
     for row in labeled_data:
-        features = extract_features(row["query_text"], row["passage_text"], model, vectorizer)
+        features = extract_features(row["query_text"], row["passage_text"], row["retrieval_rank"])
         features["query_id"] = row["query_id"]
         features["passage_id"] = row["passage_id"]
         features["relevance"] = row["relevance"]

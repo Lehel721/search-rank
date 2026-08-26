@@ -47,12 +47,14 @@ def build_labeled_data(qrels_split, queries_dict, passages_dict):
 
 def get_hard_negatives(query_id, query_text, positive_passage_ids, top_k=10, n_negatives=5):
     candidates = search(query_text, top_k=top_k)
+    
     negatives = []
     for candidate in candidates:
         if candidate["id"] not in positive_passage_ids:
             negatives.append(candidate)
         if len(negatives) >= n_negatives:
             break
+    
     return negatives
 
 def get_positive_ids_by_query(labeled_data):
@@ -70,7 +72,9 @@ def build_full_training_data(labeled_data, n_negatives=5):
     seen_queries = set()
 
     for row in labeled_data:
+        row["retrieval_rank"] = 0  # positives treated as best-rank
         full_data.append(row)
+        
         qid = row["query_id"]
         if qid not in seen_queries:
             seen_queries.add(qid)
@@ -86,7 +90,8 @@ def build_full_training_data(labeled_data, n_negatives=5):
                     "query_text": row["query_text"],
                     "passage_id": neg["id"],
                     "passage_text": neg["text"],
-                    "relevance": 0
+                    "relevance": 0,
+                    "retrieval_rank": neg["retrieval_rank"]
                 })
 
     return full_data
