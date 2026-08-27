@@ -72,7 +72,7 @@ def build_full_training_data(labeled_data, n_negatives=5):
     seen_queries = set()
 
     for row in labeled_data:
-        row["retrieval_rank"] = 0  # positives treated as best-rank
+        row["retrieval_rank"] = 0  
         full_data.append(row)
         
         qid = row["query_id"]

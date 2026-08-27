@@ -104,11 +104,22 @@ def rerank(query, top_k=10):
     return scored_candidates
 
 if __name__ == "__main__":
-    query = "what is non controlling interest on balance sheet"
-    results = rerank(query, top_k=10)
+    print("wiki-rank-search — type a query, or 'quit' to exit\n")
     
-    for r in results[:5]:
-        print(f"Score: {r['score']:.4f}")
-        print(r["title"])
-        print(r["text"][:150])
-        print("---")
+    while True:
+        query = input("Search: ").strip()
+        
+        if query.lower() in ("quit", "exit", "q"):
+            print("Goodbye.")
+            break
+        
+        if not query:
+            continue
+        
+        results = rerank(query, top_k=10)
+        
+        for r in results[:5]:
+            print(f"\nScore: {r['score']:.4f}")
+            print(r["title"])
+            print(r["text"][:150])
+        print("\n" + "-" * 50 + "\n")

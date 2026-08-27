@@ -1,7 +1,7 @@
 import faiss
 import numpy as np
 
-def load_embeddings(path="data/processed/embeddings.npy"):
+def load_embeddings(path="data/processed/embeddings_100k.npy"):
     return np.load(path)
 
 def build_faiss_index(embeddings):
