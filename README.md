@@ -14,22 +14,11 @@ The system:
 
 ## Architecture
 
-Query
-│
-▼
-┌─────────────────────┐
-│ Stage 1: Retrieval │ fastembed (BAAI/bge-small-en-v1.5) → 384-dim vector
-│ (FAISS, IndexFlatL2)│ → top-k nearest passages by embedding distance
-└─────────┬────────────┘
-│ candidates (unranked by relevance, ranked by raw distance)
-▼
-┌─────────────────────┐
-│ Stage 2: Reranking │ 4 features per (query, passage) pair:
-│ (LightGBM LambdaRank)│ embedding similarity · TF-IDF similarity ·
-└─────────┬────────────┘ passage length · original retrieval rank
-│
-▼
-Final ranked results
+**Query** → embedded into a 384-dim vector (fastembed, `BAAI/bge-small-en-v1.5`)
+→ **Stage 1: Retrieval** (FAISS `IndexFlatL2`) finds the top-k nearest passages by embedding distance
+→ candidates (ranked by raw distance, not yet by relevance)
+→ **Stage 2: Reranking** (LightGBM, LambdaRank) scores each candidate using 4 features — embedding similarity, TF-IDF similarity, passage length, and original retrieval rank
+→ **Final ranked results**
 
 
 **Why two stages, not one?** Retrieval alone (embedding similarity) is fast but coarse — it finds passages that are topically similar, not necessarily the correct answer. Reranking is precise but too expensive to run over an entire corpus, so it only evaluates the retrieval stage's shortlist. This retrieve-cheap, rerank-precisely split is the same pattern real-world search systems use at scale.
